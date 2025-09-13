@@ -54,8 +54,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    {/* REPLACE WITH YOUR EMAIL */}
-                    <p className="text-muted-foreground">your.email@example.com</p>
+                    <p className="text-muted-foreground">zxd234@miami.edu</p>
                   </div>
                 </div>
 
@@ -65,8 +64,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-medium">Phone</p>
-                    {/* REPLACE WITH YOUR PHONE */}
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">(786) 351-0005</p>
                   </div>
                 </div>
 
@@ -76,8 +74,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-medium">Location</p>
-                    {/* REPLACE WITH YOUR LOCATION */}
-                    <p className="text-muted-foreground">University City, State</p>
+                    <p className="text-muted-foreground">Coral Gables, Florida</p>
                   </div>
                 </div>
               </div>
@@ -86,10 +83,9 @@ const ContactSection = () => {
             <div>
               <h3 className="text-xl font-semibold mb-4">Connect With Me</h3>
               <div className="flex space-x-4">
-                {/* REPLACE WITH YOUR ACTUAL SOCIAL LINKS */}
                 <Button variant="outline" size="icon" asChild>
                   <a
-                    href="https://github.com/yourusername"
+                    href="https://github.com/zak-djahed"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -99,7 +95,7 @@ const ContactSection = () => {
                 
                 <Button variant="outline" size="icon" asChild>
                   <a
-                    href="https://linkedin.com/in/yourusername"
+                    href="https://linkedin.com/in/zakaria-djahed/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -108,7 +104,7 @@ const ContactSection = () => {
                 </Button>
 
                 <Button variant="outline" size="icon" asChild>
-                  <a href="mailto:your.email@example.com">
+                  <a href="mailto:zxd234@miami.edu">
                     <Mail size={20} />
                   </a>
                 </Button>
@@ -119,7 +115,7 @@ const ContactSection = () => {
               <CardContent className="p-6">
                 <h4 className="font-semibold mb-2">Open to Opportunities</h4>
                 <p className="text-muted-foreground text-sm">
-                  I'm currently seeking summer 2025 internships in software engineering 
+                  I'm currently seeking internships and full-time opportunities in software engineering 
                   and quantitative analysis. Feel free to reach out if you have any 
                   opportunities or would like to discuss potential collaborations.
                 </p>

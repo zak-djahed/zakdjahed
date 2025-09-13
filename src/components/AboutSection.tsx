@@ -15,23 +15,19 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              {/* REPLACE WITH YOUR STORY */}
-              I'm a dedicated Computer Science and Mathematics student at the University of X, 
-              with a deep passion for technology and quantitative analysis. My journey began with 
-              curiosity about how mathematical principles can be applied to create efficient 
-              algorithms and solve real-world challenges.
+              Hello! I'm a passionate Computer Science and Mathematics student at the University of Miami, 
+              driven by the intersection of technology and quantitative analysis. Currently maintaining a 3.86 GPA 
+              while pursuing a double major, I'm honored to be a Foote Fellow, Benacquisto Scholar, and National Merit Scholar.
             </p>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              {/* REPLACE WITH YOUR INTERESTS */}
-              I'm particularly interested in machine learning, algorithmic trading, and software 
-              development. I enjoy working on projects that bridge the gap between theoretical 
-              mathematics and practical applications in technology and finance.
+              My experience spans from LegalTech development at Miami Law and AI Lab to quantitative analysis 
+              with TAMID Group, where I work with trading strategies and portfolio optimization. I'm particularly 
+              fascinated by machine learning, financial modeling, and building scalable software solutions.
             </p>
 
             <div className="flex flex-wrap gap-3 pt-4">
-              {/* REPLACE WITH YOUR INTERESTS/TECHNOLOGIES */}
-              {['Python', 'JavaScript', 'React', 'Machine Learning', 'Algorithms', 'Statistics'].map((tech) => (
+              {['Python', 'Java', 'Machine Learning', 'Financial Modeling', 'LegalTech', 'Quantitative Analysis'].map((tech) => (
                 <span
                   key={tech}
                   className="px-3 py-1 bg-accent text-accent-foreground rounded-full text-sm font-medium"
@@ -52,9 +48,9 @@ const AboutSection = () => {
                   <div>
                     <h3 className="font-semibold mb-2">Education</h3>
                     <p className="text-muted-foreground">
-                      {/* REPLACE WITH YOUR EDUCATION */}
                       B.S. in Computer Science & Mathematics<br />
-                      University of X • Expected 2025
+                      University of Miami • Expected May 2027<br />
+                      GPA: 3.86/4.0
                     </p>
                   </div>
                 </div>
@@ -88,9 +84,8 @@ const AboutSection = () => {
                   <div>
                     <h3 className="font-semibold mb-2">Interests</h3>
                     <p className="text-muted-foreground">
-                      {/* REPLACE WITH YOUR INTERESTS */}
-                      Competitive programming, chess,<br />
-                      financial markets, and open source
+                      Trading competitions, quantitative research,<br />
+                      AI/ML applications, and LegalTech innovation
                     </p>
                   </div>
                 </div>

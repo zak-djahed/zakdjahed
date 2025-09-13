@@ -4,37 +4,36 @@ import { Badge } from '@/components/ui/badge';
 import { ExternalLink, Github } from 'lucide-react';
 
 const ProjectsSection = () => {
-  // REPLACE WITH YOUR ACTUAL PROJECTS
   const projects = [
     {
-      title: 'Algorithmic Trading Bot',
-      description: 'A Python-based trading bot that uses machine learning algorithms to analyze market trends and execute trades automatically.',
-      technologies: ['Python', 'TensorFlow', 'Pandas', 'Alpha Vantage API'],
-      githubUrl: 'https://github.com/yourusername/trading-bot',
+      title: 'Portfolio Optimization with Factor Models',
+      description: 'Implemented portfolio optimization using historical price data for 20 stocks, calculating expected returns and covariance matrix. Simulated 10,000 random portfolios to visualize the efficient frontier and computed minimum-variance portfolio with scipy.optimize.',
+      technologies: ['Python', 'NumPy', 'SciPy', 'Matplotlib', 'Portfolio Theory'],
+      githubUrl: 'https://github.com/zak-djahed/portfolio-optimization',
       liveUrl: null,
       featured: true,
     },
     {
-      title: 'Portfolio Optimization Tool',
-      description: 'Web application for portfolio optimization using modern portfolio theory and Monte Carlo simulations.',
-      technologies: ['React', 'TypeScript', 'Node.js', 'Chart.js'],
-      githubUrl: 'https://github.com/yourusername/portfolio-optimizer',
-      liveUrl: 'https://portfolio-optimizer.example.com',
+      title: 'DIY Search Engine',
+      description: 'Built a custom search engine modeling data collection, ranking algorithms, and search operations. Compared sorting algorithms (heap, selection, insertion, bubble) for page ranking with time complexity analysis.',
+      technologies: ['Java', 'Data Structures', 'Algorithms', 'Performance Analysis'],
+      githubUrl: 'https://github.com/zak-djahed/diy-search-engine',
+      liveUrl: null,
       featured: true,
     },
     {
-      title: 'Data Structures Visualizer',
-      description: 'Interactive web app that visualizes common data structures and algorithms to help students learn computer science concepts.',
-      technologies: ['JavaScript', 'HTML5 Canvas', 'CSS3', 'D3.js'],
-      githubUrl: 'https://github.com/yourusername/ds-visualizer',
-      liveUrl: 'https://ds-visualizer.example.com',
+      title: 'LegalTech Document Processing',
+      description: 'Deployed a PDF scraping and classification pipeline processing 74,000+ government documents with keyword analysis workflows on 2M+ files across decades of regulatory data.',
+      technologies: ['Python', 'PDF Processing', 'SQL', 'Data Pipeline', 'Classification'],
+      githubUrl: 'https://github.com/zak-djahed/legaltech-pipeline',
+      liveUrl: null,
       featured: false,
     },
     {
-      title: 'Statistical Analysis Library',
-      description: 'A comprehensive Python library for statistical analysis with implementations of various hypothesis testing methods.',
-      technologies: ['Python', 'NumPy', 'SciPy', 'Matplotlib'],
-      githubUrl: 'https://github.com/yourusername/stats-lib',
+      title: 'Quantitative Trading Research',
+      description: 'Developed trading strategies and portfolio optimization models using time-series regression, market alphas & betas, Fama-French factor models, and Monte Carlo simulations.',
+      technologies: ['Python', 'Pandas', 'NumPy', 'Financial Modeling', 'Statistical Analysis'],
+      githubUrl: 'https://github.com/zak-djahed/quant-research',
       liveUrl: null,
       featured: false,
     },
@@ -120,7 +119,7 @@ const ProjectsSection = () => {
         <div className="text-center mt-12">
           <Button variant="outline" asChild>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/zak-djahed"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2"

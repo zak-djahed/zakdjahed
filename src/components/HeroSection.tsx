@@ -17,19 +17,16 @@ const HeroSection = () => {
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-hero bg-clip-text text-transparent">
-            {/* REPLACE WITH YOUR NAME */}
-            Your Name
+            Zak Djahed
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-            {/* REPLACE WITH YOUR TITLE */}
             Computer Science & Mathematics Student
           </p>
           
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            {/* REPLACE WITH YOUR DESCRIPTION */}
-            Aspiring Software Engineer and Quantitative Analyst passionate about building innovative solutions 
-            and applying mathematical models to real-world problems.
+            Aspiring Software Engineer and Quantitative Analyst with experience in LegalTech, trading, and AI. 
+            Passionate about building innovative solutions and applying mathematical models to real-world problems.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
@@ -52,9 +49,8 @@ const HeroSection = () => {
           </div>
 
           <div className="flex items-center justify-center space-x-6">
-            {/* REPLACE THESE LINKS WITH YOUR ACTUAL PROFILES */}
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/zak-djahed"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -62,7 +58,7 @@ const HeroSection = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://linkedin.com/in/zakaria-djahed/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -70,7 +66,7 @@ const HeroSection = () => {
               <Linkedin size={24} />
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:zxd234@miami.edu"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <Mail size={24} />

@@ -4,43 +4,53 @@ import { Badge } from '@/components/ui/badge';
 import { Download, Calendar, MapPin, Building } from 'lucide-react';
 
 const ResumeSection = () => {
-  // REPLACE WITH YOUR ACTUAL EXPERIENCE
   const experience = [
     {
-      title: 'Software Engineering Intern',
-      company: 'Tech Company Inc.',
-      location: 'San Francisco, CA',
-      period: 'Summer 2024',
+      title: 'Software Engineer - LegalTech Dev Team',
+      company: 'Miami Law and AI Lab',
+      location: 'Coral Gables, Florida',
+      period: 'February 2025 - Present',
       description: [
-        'Developed full-stack web applications using React and Node.js',
-        'Implemented automated testing suite, reducing bugs by 40%',
-        'Collaborated with senior developers on product feature development',
+        'Deployed a PDF scraping and classification pipeline that processed 74,000+ government documents',
+        'Designed keyword analysis workflows on 2M+ files across decades of regulatory data (1936–2024)',
+        'Automated metadata validation by comparing document IDs, RINs, and keyword frequencies across SQL databases and Google Drive archives, reducing manual verification by over 99%',
       ],
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'AWS'],
+      technologies: ['Python', 'SQL', 'Google Drive API', 'PDF Processing'],
     },
     {
-      title: 'Research Assistant',
-      company: 'University of X - Mathematics Department',
-      location: 'University City, State',
-      period: 'Sep 2023 - Present',
+      title: 'Quantitative Analyst',
+      company: 'TAMID Group at the University of Miami',
+      location: 'Coral Gables, Florida',
+      period: 'September 2024 - Present',
       description: [
-        'Conducted research on optimization algorithms for portfolio management',
-        'Published findings in undergraduate research symposium',
-        'Mentored junior students in mathematical modeling techniques',
+        'Using Python (Pandas, NumPy) for stock analysis, portfolio optimization, and trading strategies',
+        'Collaborating in a CI/CD workflow to support data-driven quantitative research',
+        'Constructing projects on time-series regression, market alphas & betas, Fama-French factor models, Monte Carlo simulations, and equity dashboards',
       ],
-      technologies: ['Python', 'MATLAB', 'R', 'LaTeX'],
+      technologies: ['Python', 'Pandas', 'NumPy', 'CI/CD', 'Financial Modeling'],
+    },
+    {
+      title: 'Software Engineering Intern',
+      company: 'Rhythm Innovations',
+      location: 'Sunrise, Florida',
+      period: 'May 2025 - August 2025',
+      description: [
+        'Designed and prototyped Fleet Risk and Claims/Policy features for the Rhythm platform',
+        'Built an AI agent delivering monthly risk profiles, securing 90+ new client leads after ASSP demo',
+        'Developed a Prediction Builder to identify key predictors of telematics incidents for clients',
+      ],
+      technologies: ['AI/ML', 'Platform Development', 'Risk Analysis', 'Client Solutions'],
     },
   ];
 
-  // REPLACE WITH YOUR ACTUAL EDUCATION
   const education = [
     {
-      degree: 'Bachelor of Science in Computer Science & Mathematics',
-      school: 'University of X',
-      location: 'University City, State',
-      period: '2022 - 2025 (Expected)',
-      gpa: '3.8/4.0',
-      relevant: ['Data Structures & Algorithms', 'Machine Learning', 'Statistics', 'Linear Algebra'],
+      degree: 'Bachelor of Science in Computer Science & Mathematics (Double-Major)',
+      school: 'University of Miami',
+      location: 'Coral Gables, Florida',
+      period: 'May 2027 (Expected)',
+      gpa: '3.86/4.0',
+      relevant: ['Data Structures & Algorithms', 'Statistical Analysis', 'Machine Learning', 'Linear Algebra', 'Systems Programming', 'Multivariable Calculus', 'Game Theory', 'Math Finance'],
     },
   ];
 
@@ -150,11 +160,11 @@ const ResumeSection = () => {
               </CardHeader>
               <CardContent>
                 <ul className="list-disc list-inside space-y-2 text-sm text-muted-foreground">
-                  {/* REPLACE WITH YOUR ACHIEVEMENTS */}
-                  <li>Dean's List for 3 consecutive semesters</li>
-                  <li>Winner of University Programming Competition 2023</li>
-                  <li>Participant in ACM ICPC Regional Contest</li>
-                  <li>Mathematics Scholarship Recipient</li>
+                  <li>Foote Fellow Honors - University of Miami</li>
+                  <li>Benacquisto Scholar (Full-Ride Merit Scholarship)</li>
+                  <li>National Merit Scholar</li>
+                  <li>University of Michigan Trading Competition - 2nd Place</li>
+                  <li>Kappa Theta Pi Technological Fraternity - VP of Professional Development</li>
                 </ul>
               </CardContent>
             </Card>

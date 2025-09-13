@@ -34,8 +34,7 @@ const Navigation = () => {
             onClick={() => scrollToSection('hero')}
             className="text-xl font-semibold text-foreground hover:text-primary transition-colors"
           >
-            {/* REPLACE WITH YOUR NAME */}
-            Your Name
+            Zak Djahed
           </button>
 
           <div className="hidden md:flex items-center space-x-8">

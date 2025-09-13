@@ -2,14 +2,13 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
 
 const SkillsSection = () => {
-  // REPLACE WITH YOUR ACTUAL SKILLS AND PROFICIENCY LEVELS (0-100)
   const technicalSkills = [
-    { name: 'Python', level: 90 },
-    { name: 'JavaScript/TypeScript', level: 85 },
-    { name: 'React', level: 80 },
-    { name: 'Java', level: 75 },
-    { name: 'C++', level: 70 },
-    { name: 'SQL', level: 85 },
+    { name: 'Python', level: 95 },
+    { name: 'Java', level: 90 },
+    { name: 'JavaScript', level: 80 },
+    { name: 'C', level: 75 },
+    { name: 'R', level: 85 },
+    { name: 'SQL', level: 80 },
   ];
 
   const mathematicalSkills = [
@@ -23,17 +22,20 @@ const SkillsSection = () => {
 
   const tools = [
     'Git & GitHub',
-    'Docker',
-    'AWS',
-    'Node.js',
-    'PostgreSQL',
-    'MongoDB',
     'Jupyter Notebooks',
-    'MATLAB',
-    'R',
+    'UNIX',
+    'Node.js',
+    'Tableau',
+    'Power BI',
+    'Salesforce',
+    'REST APIs',
     'Pandas',
     'NumPy',
-    'TensorFlow',
+    'Matplotlib',
+    'SciPy',
+    'scikit-learn',
+    'PyTorch',
+    'yfinance',
   ];
 
   return (
