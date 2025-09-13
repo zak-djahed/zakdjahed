@@ -18,18 +18,6 @@ const ResumeSection = () => {
       technologies: ['Python', 'SQL', 'Google Drive API', 'PDF Processing'],
     },
     {
-      title: 'Trading Analyst Intern',
-      company: 'MBF Trading LLC',
-      location: 'New York City, New York',
-      period: 'May 2024 - June 2024',
-      description: [
-        'Co-authored a detailed 35-page guide on the firm\'s trading approach, improving clarity for training',
-        'Analyzed 100+ stocks daily using Excel, CQG, and proprietary tools, optimizing trading strategy',
-        'Developed a new order imbalance-based trading strategy, increasing daily returns by up to 25%',
-      ],
-      technologies: ['Excel', 'CQG', 'Trading Strategy', 'Data Analysis'],
-    },
-    {
       title: 'Quantitative Analyst',
       company: 'TAMID Group at the University of Miami',
       location: 'Coral Gables, Florida',
@@ -52,6 +40,18 @@ const ResumeSection = () => {
         'Developed a Prediction Builder to identify key predictors of telematics incidents for clients',
       ],
       technologies: ['AI/ML', 'Platform Development', 'Risk Analysis', 'Client Solutions'],
+    },
+    {
+      title: 'Trading Analyst Intern',
+      company: 'MBF Trading LLC',
+      location: 'New York City, New York',
+      period: 'May 2024 - June 2024',
+      description: [
+        'Co-authored a detailed 35-page guide on the firm\'s trading approach, improving clarity for training',
+        'Analyzed 100+ stocks daily using Excel, CQG, and proprietary tools, optimizing trading strategy',
+        'Developed a new order imbalance-based trading strategy, increasing daily returns by up to 25%',
+      ],
+      technologies: ['Excel', 'CQG', 'Trading Strategy', 'Data Analysis'],
     },
   ];
 
