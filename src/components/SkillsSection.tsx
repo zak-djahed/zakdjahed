@@ -3,21 +3,21 @@ import { Progress } from '@/components/ui/progress';
 
 const SkillsSection = () => {
   const technicalSkills = [
-    { name: 'Python', level: 95 },
-    { name: 'Java', level: 90 },
-    { name: 'JavaScript', level: 80 },
-    { name: 'C', level: 75 },
-    { name: 'R', level: 85 },
-    { name: 'SQL', level: 80 },
+    'Python',
+    'Java', 
+    'JavaScript',
+    'C',
+    'R',
+    'SQL',
   ];
 
   const mathematicalSkills = [
-    { name: 'Statistics & Probability', level: 88 },
-    { name: 'Linear Algebra', level: 85 },
-    { name: 'Calculus', level: 90 },
-    { name: 'Discrete Mathematics', level: 82 },
-    { name: 'Data Analysis', level: 87 },
-    { name: 'Machine Learning', level: 78 },
+    'Statistics & Probability',
+    'Linear Algebra',
+    'Calculus',
+    'Discrete Mathematics',
+    'Data Analysis',
+    'Machine Learning',
   ];
 
   const tools = [
@@ -53,16 +53,17 @@ const SkillsSection = () => {
             <CardHeader>
               <CardTitle className="text-xl">Programming Languages</CardTitle>
             </CardHeader>
-            <CardContent className="space-y-6">
-              {technicalSkills.map((skill) => (
-                <div key={skill.name}>
-                  <div className="flex justify-between mb-2">
-                    <span className="font-medium">{skill.name}</span>
-                    <span className="text-muted-foreground">{skill.level}%</span>
+            <CardContent>
+              <div className="grid grid-cols-2 gap-4">
+                {technicalSkills.map((skill) => (
+                  <div
+                    key={skill}
+                    className="p-3 bg-accent/50 rounded-lg text-center font-medium hover:bg-accent transition-colors"
+                  >
+                    {skill}
                   </div>
-                  <Progress value={skill.level} className="h-2" />
-                </div>
-              ))}
+                ))}
+              </div>
             </CardContent>
           </Card>
 
@@ -70,16 +71,17 @@ const SkillsSection = () => {
             <CardHeader>
               <CardTitle className="text-xl">Mathematics & Analytics</CardTitle>
             </CardHeader>
-            <CardContent className="space-y-6">
-              {mathematicalSkills.map((skill) => (
-                <div key={skill.name}>
-                  <div className="flex justify-between mb-2">
-                    <span className="font-medium">{skill.name}</span>
-                    <span className="text-muted-foreground">{skill.level}%</span>
+            <CardContent>
+              <div className="grid grid-cols-2 gap-4">
+                {mathematicalSkills.map((skill) => (
+                  <div
+                    key={skill}
+                    className="p-3 bg-accent/50 rounded-lg text-center font-medium hover:bg-accent transition-colors"
+                  >
+                    {skill}
                   </div>
-                  <Progress value={skill.level} className="h-2" />
-                </div>
-              ))}
+                ))}
+              </div>
             </CardContent>
           </Card>
         </div>

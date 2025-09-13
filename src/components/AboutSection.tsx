@@ -75,22 +75,6 @@ const AboutSection = () => {
               </CardContent>
             </Card>
 
-            <Card className="glass shadow-soft hover:shadow-medium transition-all duration-200">
-              <CardContent className="p-6">
-                <div className="flex items-start space-x-4">
-                  <div className="p-2 bg-primary/10 rounded-lg">
-                    <Heart className="h-6 w-6 text-primary" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold mb-2">Interests</h3>
-                    <p className="text-muted-foreground">
-                      Trading competitions, quantitative research,<br />
-                      AI/ML applications, and LegalTech innovation
-                    </p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </div>
