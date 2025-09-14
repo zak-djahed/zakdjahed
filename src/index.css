@@ -18,16 +18,16 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 9%;
 
-    --primary: 213 94% 68%;
+    --primary: 217 91% 60%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 96%;
-    --secondary-foreground: 0 0% 15%;
+    --secondary: 142 76% 36%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 0 0% 97%;
-    --muted-foreground: 0 0% 45%;
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
 
-    --accent: 0 0% 94%;
+    --accent: 43 74% 66%;
     --accent-foreground: 0 0% 15%;
 
     --destructive: 0 84% 60%;
@@ -35,18 +35,19 @@ All colors MUST be HSL.
 
     --border: 0 0% 92%;
     --input: 0 0% 94%;
-    --ring: 213 94% 68%;
+    --ring: 217 91% 60%;
 
     /* Apple-style gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(213 94% 68%) 0%, hsl(223 84% 72%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(0 0% 98%) 100%);
-    --gradient-glass: linear-gradient(135deg, hsl(0 0% 100% / 0.25) 0%, hsl(0 0% 100% / 0.05) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(217 91% 60%) 0%, hsl(142 76% 36%) 50%, hsl(43 74% 66%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(220 14% 96%) 100%);
+    --gradient-glass: linear-gradient(135deg, hsl(217 91% 60% / 0.1) 0%, hsl(142 76% 36% / 0.05) 100%);
+    --gradient-button: linear-gradient(135deg, hsl(217 91% 60%) 0%, hsl(142 76% 36%) 100%);
     
     /* Apple-style shadows */
     --shadow-soft: 0 1px 3px hsl(0 0% 0% / 0.12), 0 1px 2px hsl(0 0% 0% / 0.24);
-    --shadow-medium: 0 4px 6px hsl(0 0% 0% / 0.07), 0 2px 4px hsl(0 0% 0% / 0.06);
-    --shadow-large: 0 10px 15px hsl(0 0% 0% / 0.1), 0 4px 6px hsl(0 0% 0% / 0.05);
-    --shadow-glow: 0 0 40px hsl(213 94% 68% / 0.3);
+    --shadow-medium: 0 4px 6px hsl(217 91% 60% / 0.15), 0 2px 4px hsl(142 76% 36% / 0.1);
+    --shadow-large: 0 10px 15px hsl(217 91% 60% / 0.2), 0 4px 6px hsl(142 76% 36% / 0.15);
+    --shadow-glow: 0 0 40px hsl(217 91% 60% / 0.3);
 
     --radius: 0.75rem;
 
@@ -77,35 +78,36 @@ All colors MUST be HSL.
     --popover: 0 0% 8%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 213 94% 68%;
+    --primary: 217 91% 60%;
     --primary-foreground: 0 0% 9%;
 
-    --secondary: 0 0% 12%;
-    --secondary-foreground: 0 0% 85%;
+    --secondary: 142 76% 36%;
+    --secondary-foreground: 0 0% 95%;
 
     --muted: 0 0% 12%;
     --muted-foreground: 0 0% 60%;
 
-    --accent: 0 0% 15%;
-    --accent-foreground: 0 0% 85%;
+    --accent: 43 74% 66%;
+    --accent-foreground: 0 0% 15%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 95%;
 
     --border: 0 0% 15%;
     --input: 0 0% 15%;
-    --ring: 213 94% 68%;
+    --ring: 217 91% 60%;
 
     /* Dark mode gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(213 94% 68%) 0%, hsl(223 84% 72%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(217 91% 60%) 0%, hsl(142 76% 36%) 50%, hsl(43 74% 66%) 100%);
     --gradient-card: linear-gradient(145deg, hsl(0 0% 8%) 0%, hsl(0 0% 6%) 100%);
-    --gradient-glass: linear-gradient(135deg, hsl(0 0% 100% / 0.1) 0%, hsl(0 0% 100% / 0.02) 100%);
+    --gradient-glass: linear-gradient(135deg, hsl(217 91% 60% / 0.1) 0%, hsl(142 76% 36% / 0.05) 100%);
+    --gradient-button: linear-gradient(135deg, hsl(217 91% 60%) 0%, hsl(142 76% 36%) 100%);
     
     /* Dark mode shadows */
     --shadow-soft: 0 1px 3px hsl(0 0% 0% / 0.5), 0 1px 2px hsl(0 0% 0% / 0.6);
-    --shadow-medium: 0 4px 6px hsl(0 0% 0% / 0.3), 0 2px 4px hsl(0 0% 0% / 0.2);
-    --shadow-large: 0 10px 15px hsl(0 0% 0% / 0.4), 0 4px 6px hsl(0 0% 0% / 0.1);
-    --shadow-glow: 0 0 40px hsl(213 94% 68% / 0.2);
+    --shadow-medium: 0 4px 6px hsl(217 91% 60% / 0.2), 0 2px 4px hsl(142 76% 36% / 0.15);
+    --shadow-large: 0 10px 15px hsl(217 91% 60% / 0.3), 0 4px 6px hsl(142 76% 36% / 0.2);
+    --shadow-glow: 0 0 40px hsl(217 91% 60% / 0.2);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
